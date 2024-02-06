@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio Website</title>
+
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <!--Header section-->
+    <header>
+        <nav>
+            <div class="left">Shaikh Imtiyaj</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#home"><i class="fa-solid fa-house"></i> Home</a></li>
+                    <li><a href="#about"><i class="fa-solid fa-bars"></i> About Me</li></a>
+                    <li><a href="#skills"><i class="fa-solid fa-code"></i> Skills</a></li>
+                    <li><a href="#project"><i class="fa-solid fa-bars-progress"></i> Projects</a></li>
+                    <li><a href="#contact"><i class="fa-solid fa-phone"></i> Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!--main section-->
+
+    <main>
+
+        <!--First Section-->
+        <section class="firstSection" id="home">
+            <div class="leftSection">
+                Hi, My name is <span class="purple">Shaikh Imtiyaj</span>
+                <div>and I am a passionate</div>
+                <span id="element"></span>
+                <div class="home-social">
+                    <a class="home-social-icon" target="_blank"
+                        href="https://www.linkedin.com/in/imtiyaj-shaikh-02982a1b2">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                    <a class="home-social-icon" target="_blank" href="https://github.com/imtiyaj43">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a class="button button-flex" href="#contact">Contact Me </a>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="logo1.png" alt="">
+            </div>
+        </section>
+        <hr>
+
+        <!--Second Section(About Me)-->
+        <section class="secondSection" id="about">
+            <span class="text-me">About Me</span><br>
+            <span class="skill-subtitle">My Introduction</span>
+            <div class="secondLeft">
+                <b>Hi, I'm Shaikh Imtiyaj.</b> As an eager technology enthusiast,I am frequently seeking an opportunity
+                to be a valuable part of a forward-thinking and vibrant team. I am driven by the prospect of a
+                learning-oriented environment that would allow me to amplify my existing skills and expertise.Despite
+                being a fresher,I bring practical experience from actively contributing to live projects in diverse
+                domains such as Web Development,Frontend Projects. My aspiration is to leverage this hands-on experience
+                to significantly contribute to the progress and success of an organization,utilizing my knowledge to
+                innovate and drive positive outcomes.
+            </div>
+            <div class="about-buttons">
+                <a class="button-flex" href="resume.docx" download>Download Resume<i
+                        class="fa-solid fa-file-arrow-down button-icon"></i></a>
+            </div>
+            <img src="" class="about-img">
+        </section>
+        <hr>
+
+        <!--Third Section Skill-->
+        <div class="slider">
+            <section class="thirdSection" id="skills">
+                <span class="text-skill">Skills</span><br>
+                <h1 style="text-align: center;">MY <span>SKILLS</span></h1>
+                <div class="skills">
+                    <!-- HTML and CSS Section -->
+                    <div style="display: flex;">
+                        <!-- HTML Section -->
+                        <div class="skill">
+                            <div class="outer">
+                                <div class="inner">
+                                    <div id="number"></div>
+                                </div>
+                            </div>
+                            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+                                <defs>
+                                    <linearGradient id="HTMLGradientColor">
+                                        <stop offset="0%" stop-color="#e91e63" />
+                                        <stop offset="100%" stop-color="#673ab7" />
+                                    </linearGradient>
+                                </defs>
+                                <circle cx="80" cy="80" r="70" stroke-linear="round" class="html-circle" />
+                                <text class="text" x="80" y="100" alignment-baseline="middle" text-anchor="middle">HTML
+                                    &CSS</text>
+                            </svg>
+                        </div>
+
+                        <!-- JavaScript Section -->
+                        <div class="skill">
+                            <div class="outer">
+                                <div class="inner">
+                                    <div id="number2"></div>
+                                </div>
+                            </div>
+                            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+                                <defs>
+                                    <linearGradient id="JSGradientColor">
+                                        <stop offset="0%" stop-color="#e91e63" />
+                                        <stop offset="100%" stop-color="#673ab7" />
+                                    </linearGradient>
+                                </defs>
+                                <circle cx="80" cy="80" r="70" stroke-linear="round" class="js-circle" />
+                                <text class="text" x="80" y="100" alignment-baseline="middle"
+                                    text-anchor="middle">JavaScript</text>
+                            </svg>
+                        </div>
+                    </div>
+                    <div style="display: flex;">
+                        <!-- Python Section -->
+                        <div class="skill">
+                            <div class="outer">
+                                <div class="inner">
+                                    <div id="number3"></div>
+                                </div>
+                            </div>
+                            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+                                <defs>
+                                    <linearGradient id="PythonGradientColor">
+                                        <stop offset="0%" stop-color="#e91e63" />
+                                        <stop offset="100%" stop-color="#673ab7" />
+                                    </linearGradient>
+                                </defs>
+                                <circle cx="80" cy="80" r="70" stroke-linear="round" class="python-circle" />
+                                <text class="text" x="80" y="100" alignment-baseline="middle"
+                                    text-anchor="middle">Python</text>
+                            </svg>
+                        </div>
+
+                        <!-- C Section -->
+                        <div class="skill">
+                            <div class="outer">
+                                <div class="inner">
+                                    <div id="number4"></div>
+                                </div>
+                            </div>
+                            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+                                <defs>
+                                    <linearGradient id="CGradientColor">
+                                        <stop offset="0%" stop-color="#e91e63" />
+                                        <stop offset="100%" stop-color="#673ab7" />
+                                    </linearGradient>
+                                </defs>
+                                <circle cx="80" cy="80" r="70" stroke-linear="round" class="c-circle" />
+                                <text class="text" id="cp" x="80" y="100" alignment-baseline="middle"
+                                    text-anchor="middle">C
+                                    Programming</text>
+                            </svg>
+                        </div>
+                    </div>
+            </section>
+        </div>
+        <hr>
+
+        <!--fourth project Section-->
+        <section class="fourthSection" id="project">
+
+            <section class="portfolio section">
+                <span class="text-me" id="project-title">Projects</span><br>
+                <span class="skill-subtitle">Most recent work</span>
+
+                <div class="portfolio-container container swiper-container">
+                    <div class="swiper-wrapper">
+                        <!-- project1  -->
+                        <div class="portfolio-content grid swiper-slide">
+                            <img src="Business-Website.jpg" alt="" class="portfolio-img" />
+                            <div class="portfolio-data">
+                                <h3 class="portfolio-title">Business Websites</h3>
+                                <p class="portfolio-description">
+                                    Dynamic business sites that reflect your brand and engage
+                                    customers effectively.
+                                </p>
+                                <a href="#" target="_blank" class="button button-flex portfolio-button">Project Link<i
+                                        class="fa-solid fa-arrow-right button-icon"></i></a>
+                            </div>
+                        </div>
+                        <!-- project2  -->
+                        <div class="portfolio-content grid swiper-slide">
+                            <img src="code.jpg" alt="" class="portfolio-img" />
+
+                            <div class="portfolio-data">
+                                <h3 class="portfolio-title">Portfolio Websites</h3>
+                                <p class="portfolio-description">
+                                    Impressive portfolio sites that showcase your talents with a
+                                    flawless user experience.
+                                </p>
+                                <a href="" target="_blank"
+                                    class="button button-flex button-small portfolio-button">Project Link
+                                    <i class="fa-solid fa-arrow-right button-icon"></i></a>
+                            </div>
+                        </div>
+                        <!-- project3  -->
+                        <div class="portfolio-content grid swiper-slide">
+                            <img src="cc.jpg" alt="" class="portfolio-img" />
+
+                            <div class="portfolio-data">
+                                <h3 class="portfolio-title">Landing Pages</h3>
+                                <p class="portfolio-description">
+                                    Compelling landing pages that drive conversions and engage
+                                    your audience.
+                                </p>
+                                <a href="" target="_blank"
+                                    class="button button-flex button-small portfolio-button">Project Link
+                                    <i class="fa-solid fa-arrow-right button-icon"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <hr>
+
+        <!--contact section-->
+        <section class="fifthSection" id="contact">
+            <section class="contact section">
+                <span class="text-me">Contact me</span><br>
+                <span class="skill-subtitle">Get in touch</span>
+
+                <div class="contact-container container grid">
+
+                    <div>
+                        <div class="contact-info">
+                            <i class="fa-regular fa-envelope contact-icon"></i>
+                            <div>
+                                <h3 class="contact-title">Email</h3>
+                                <a href="mailto:imtiyajshaikh6083@gmail.com" target="_blank"
+                                    class="contact-subtitle">imtiyajshaikh6083@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-info">
+                            <i class="fa-brands fa-linkedin-in contact-icon"></i>
+                            <div>
+                                <h3 class="contact-title">Linkedin</h3>
+                                <a class="contact-subtitle" href="https://www.linkedin.com/in/imtiyaj-shaikh-02982a1b2"
+                                    target="_blank">@imtiyaj-shaikh</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <img src="contactme.png" alt="" class="contact-img">
+
+                </div>
+            </section>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Shaikh Imtiyaj. All rights reserved.</p>
+            <ul class="footer-links">
+                <li><a href="" target="_blank"><i class="fa-brands fa-linkedin-in"></i> LinkedIn</a></li>
+                <li><a href="" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="portfolio.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Python Coder', 'Frontend Developer.'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>

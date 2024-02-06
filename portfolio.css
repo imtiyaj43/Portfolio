@@ -1,0 +1,418 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #f0ffff;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 65px;
+    background-color: #00FFFF;
+}
+
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style-type: none;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover {
+    color: darkcyan;
+    font-size: 1.1rem;
+}
+
+main hr {
+    border: 0;
+    background: rebeccapurple;
+    height: 1.2px;
+    margin: 40px 84px;
+}
+
+.leftSection {
+    font-size: 2rem;
+}
+
+.home-social {
+    display: flex;
+    justify-content: start;
+    margin-top: 10px;
+}
+
+.home-social-icon {
+    margin: 0 15px;
+    font-size: 2.5rem;
+    color: royalblue;
+}
+
+.button {
+    text-decoration: none;
+}
+
+.button-flex {
+    display: inline-flex;
+    background-color: #6973E2;
+    border: 2px solid purple;
+    color: black;
+    padding: 0.15rem;
+    border-radius: 0.5rem;
+    font-weight: 300;
+    cursor: pointer;
+
+}
+
+.button-icon {
+    font-size: 1.25rem;
+    margin-left: 0.5rem;
+    transition: 0.3s;
+
+}
+
+.firstSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 70px 0;
+}
+
+.firstSection>div {
+    width: 35%;
+}
+
+.rightSection img {
+    width: 130%;
+}
+
+.purple {
+    color: blueviolet;
+}
+
+#element {
+    color: blueviolet;
+}
+
+.secondSection {
+    justify-content: space-around;
+    align-items: center;
+    max-width: 80vw;
+    margin: auto;
+    height: auto;
+    font-size: 1.3rem;
+}
+
+.secondSection h1 {
+    font-size: 2.5rem;
+}
+
+.text-me {
+    color: gray;
+}
+
+b {
+    color: blueviolet;
+}
+
+.secondSection>div {
+    width: 40%;
+    font-size: 1.5rem;
+}
+
+.about-button {
+    display: flex;
+    justify-content: center;
+}
+
+/*
+.about-img{
+    width: 68%;
+    position: absolute;
+    left: 37%;
+    margin-top: -98%;
+}*/
+
+.thirdSection {
+    display: flex;
+    margin: 40px 90px;
+}
+.text-skill{
+    color: gray;
+    margin-right: 15%;
+}
+.slider{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 500px;
+    display: flex;
+  }
+.skill {
+    width: 160px;
+    height: 160px;
+    position: relative;
+    margin: 20px;
+  }
+  
+  /* Outer circle styles */
+  .outer {
+    height: 120px;
+    width: 160px;
+    border-radius: 50%;
+    padding: 5px;
+    }
+  
+  /* Inner circle styles */
+  .inner {
+    height: 120px;
+    width: 160px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+  .text,
+  #number,#number2,#number3,#number4 {
+    font-weight: 600;
+    color: #555;
+  }
+  
+  #cp{
+    font-size: 0.9rem;
+  }
+  
+  /* Circle animation */
+  .html-circle {
+    fill: none;
+    stroke: url(#HTMLGradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: anim 2.5s linear forwards;
+  }
+  
+  .js-circle {
+    fill: none;
+    stroke: url(#JSGradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: js-anim 2s linear forwards;
+  }
+  
+  .python-circle{
+    fill: none;
+    stroke: url(#PythonGradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: py-anim 2.3s linear forwards;
+  }
+  
+  .c-circle{
+    fill: none;
+    stroke: url(#CGradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: cp-anim 2s linear forwards;
+  }
+  
+  svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  /* Keyframe animations for circles */
+  @keyframes anim {
+    100% {
+      stroke-dashoffset: 70.8; /* Adjust the final value as needed */
+    }
+  }
+  
+  @keyframes js-anim {
+    100%{
+      stroke-dashoffset: 188.8; /* Adjust the final value as needed */
+    }
+  }
+  
+  @keyframes py-anim {
+    100%{
+      stroke-dashoffset: 94.4; /* Adjust the final value as needed */
+    }
+  }
+  
+  @keyframes cp-anim {
+    100%{
+      stroke-dashoffset: 118; /* Adjust the final value as needed */
+    }
+  }
+
+.fourthSection {
+    display: flex;
+    margin: 40px 90px;
+}
+
+.portfolio-container {
+    overflow: initial;
+}
+
+.portfolio-content {
+    padding: 0 1.5rem;
+}
+
+.portfolio-img {
+    width: 265px;
+    border-radius: 0.5rem;
+    justify-self: center;
+}
+
+.portfolio-title {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.portfolio-description {
+    margin-bottom: 0.75rem;
+}
+
+.portfolio-button:hover .button-icon {
+    transform: translateX(0.25rem);
+}
+
+.portfolio-button{
+    margin-bottom: 2.5%;
+}
+
+/* projects  */
+
+.project {
+    text-align: center;
+}
+
+.project-bg {
+    background-color: royalblue;
+    padding-top: 3rem;
+}
+
+#project-title {
+    font-size: 1.25rem;
+    margin-bottom: 0.75;
+}
+
+.project-description {
+    margin-bottom: 1.5rem;
+}
+
+.project-description {
+    color: #fff;
+}
+
+.project-img {
+    width: 232px;
+    justify-self: center;
+}
+
+.fifthSection {
+    display: flex;
+    margin: 40px 90px;
+}
+
+.contact-section {
+    font-size: 1.rem;
+}
+
+.contact-container {
+    row-gap: 3rem;
+}
+
+.contact-info {
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.contact-icon {
+    font-size: 1.5rem;
+    color: var(--first-color);
+    margin-right: 0.75rem;
+    margin-top: 15px;
+}
+
+.contact-title {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.contact-subtitle {
+    font-size: 1rem;
+    color: purple;
+    text-decoration: none;
+}
+
+.contact-img {
+    width: 18%;
+    position: absolute;
+    left: 53%;
+    margin-top: -17%;
+}
+
+footer {
+    background-color: #e6e6fa;
+    color: black;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.footer-links li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.footer-links a:hover {
+    color: #ffcc00;
+}
+
+.button-flex {
+    margin-top: 20px;
+    /* Adjusted margin for smaller screens */
+}
