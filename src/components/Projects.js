@@ -1,7 +1,7 @@
 function Projects() {
   const projects = [
-    { title: "OnFinance App", desc: "Deployed Flask app on AWS EKS using Terraform and CI/CD.", link: "https://github.com/..." },
-    { title: "Node.js Deployment", desc: "Containerized Node.js app with NGINX, MongoDB, and Redis on EC2.", link: "https://github.com/..." },
+    { title: "OnFinance App", desc: "Deployed Flask app on AWS EKS using Terraform and CI/CD.", link: "https://github.com/imtiyaj43" },
+    { title: "Node.js Deployment", desc: "Containerized Node.js app with NGINX, MongoDB, and Redis on EC2.", link: "https://github.com/imtiyaj43" },
   ];
 
   return (
