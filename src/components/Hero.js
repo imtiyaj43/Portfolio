@@ -8,6 +8,7 @@ function Hero() {
       <div className="mt-6 space-x-4">
         <a href="#projects" className="bg-blue-500 text-white px-4 py-2 rounded-md">View Projects</a>
         <a href="#contact" className="border border-blue-500 text-blue-500 px-4 py-2 rounded-md">Contact Me</a>
+        <a href="#contact" className="border border-blue-500 text-blue-500 px-4 py-2 rounded-md">Resume</a>
       </div>
     </section>
   );

@@ -1,5 +1,5 @@
 function Skills() {
-  const skills = ["AWS", "Linux", "Jenkins", "Docker", "Kubernetes", "Terraform", "Ansible", "GitHub", "CI/CD"];
+  const skills = ["AWS", "Windows", "Linux", "Jenkins", "GitHub Actions", "Docker", "Kubernetes", "Terraform", "Ansible", "GitHub", "CI/CD"];
   
   return (
     <section id="skills" className="p-10 bg-gray-100 text-center">

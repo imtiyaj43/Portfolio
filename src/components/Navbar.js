@@ -6,6 +6,7 @@ function Navbar() {
         <a href="#about" className="hover:text-blue-500">About</a>
         <a href="#skills" className="hover:text-blue-500">Skills</a>
         <a href="#projects" className="hover:text-blue-500">Projects</a>
+        <a href="#projects" className="hover:text-blue-500">Experince</a>
         <a href="#contact" className="hover:text-blue-500">Contact</a>
       </div>
     </nav>
