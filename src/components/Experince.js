@@ -7,7 +7,7 @@ function Experience() {
       <div className="bg-white p-6 rounded-lg shadow-md mb-6">
         <h3 className="text-xl font-semibold">Project Engineer L2 – DevOps & Cloud Infrastructure</h3>
         <p className="text-gray-600">Intellinez Systems · Full-time</p>
-        <p className="text-gray-600 mb-3">Jun 2025 – Present · 6 mos | Chandigarh, India · On-site</p>
+        <p className="text-gray-600 mb-3">Jun 2025 – Present · 9 mos | Chandigarh, India · On-site</p>
         <ul className="list-disc list-inside text-gray-700 space-y-2">
           <li>Collaborated with the infrastructure and cloud team to design and deploy scalable systems on AWS & Windows.</li>
           <li>Automated CI/CD pipelines, enhancing deployment efficiency and reducing time-to-market.</li>
