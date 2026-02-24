@@ -40,14 +40,14 @@ function Hero() {
         </div>
       </div>
 
-      {/* Right: Image */}
+      {/* Right: Image
       <div className="md:w-1/2 flex justify-center md:justify-end mt-10 md:mt-0 z-10">
         <img
           src="/img2.png"
           alt="Shaikh Imtiyaj"
           
         />
-      </div>
+      </div> */}
     </section>
   );
 }
